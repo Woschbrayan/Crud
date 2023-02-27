@@ -60,60 +60,9 @@ ob_start();
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="./editar.css">
     <title>Editar</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-  body{
-    font-family: 'Poppins';         
-    margin: 0;           
-    padding: 0; 
-  }
 
-  .containerPrincipal{
-    position: relative;
-    width: 60%;
-    height: 40%;
-    left: 20%;
-    border-radius: 6px;
-    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 30%);
-    color: #1572a1;
-    margin-top: 1%;
-  }
-  .cabecalhoEdit{
-    background-color: #1572a1;
-    text-align: center;
-
-  }
-  .EditarProduto{
-    padding: 2%;
-  }
-
-  .btn-primary{
-    position: relative;
-    margin: 5%;
-  }
-  a{
-    color: white;
-    font-style: none;
-  }
-  a:hover{
-    color: white;
-    font-style: none;
-  }
-    .btn-danger{
-    width: 20%;
-  }
-  .btns{
-    width: 50%;
-  }
-  .msgerro{
-    position: relative;
-    display: flex;
-    left: 20rem;
-    margin: 0;
-    padding: 0;
-  }
-</style>
 </head>
 <body>
   <div class="containerPrincipal">

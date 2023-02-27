@@ -34,47 +34,8 @@
                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
                <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
+              <link rel="stylesheet" href="./home.css">
                <title>Home</title>
-  <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-        body{
-          font-family: 'Poppins';         
-          margin:0;           
-          padding: 0; 
-       
-        }
-        .menu{
-          position: relative;
-          left: 10%;
-        }
-        .containerPrincipal{
-          display: list-item;
-          position: relative;
-        }
-        .container{
-          border-radius: 6px;
-          box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 30%);
-        }
-        .menu{
-          margin: 2%; 
-          column-gap: 5%;
-        }
-        .btn-group{
-          column-gap: 5%;
-          width:50%;
-        }
-        .paginacao{
-          position: relative;
-          height: 40px;
-          display: flex;
-          column-gap: 5%;
-          justify-content: center;
-          text-align: center;
-        }
- 
-        
-  </style>
 </head>
 <body>
   <!--Container principal onde exibe todos registros-->

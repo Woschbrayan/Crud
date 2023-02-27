@@ -19,73 +19,11 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <link rel="stylesheet" href="./cadastrar.css">
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 <title>Cadastrar Produto</title>
   <style>
-   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-      body{
-      font-family: 'Poppins';         
-      margin: 0;           
-      padding: 0; 
-      }
 
-      .col-12{
-        display: flex;
-        margin: 2%;
-      }
-      .col-12 input{
-        width:20%;
-      }
-      .form-control
-      {
-        width: 70%;
-        margin-left: 2%;
-      }
-
-      .form-control{
-        margin: 2%;
-      }
-      .CadProduto{
-        position: relative;
-        width: 60%;
-        height: 40%;
-        margin-top: 1%;
-        left: 20%;
-        border-radius: 6px;
-        box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 30%);
-        color: #1572a1;
-        
-                      
-      }
-      .cabecalhoCad{
-        background-color: #1572a1;
-        width: 100%;
-        color: white;
-        text-align: center;
-        font-size:20px ;
-      }
-      .btn-primary{
-        margin: 5%;
-      }
-      #selectTipo{
-        width: 40%; 
-      }
-      .col-12{
-        display: flex;
-        column-gap:10% ;
-
-
-      }
-      a{
-        color: white;
-      }
-      a:hover{
-        color: white;
-      }
-      form{
-        padding: 2%;
-      }
-    
   </style>
 </head>
 <body>

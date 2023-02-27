@@ -32,8 +32,8 @@ class ListarProduto
       <td><?php echo  $row_produtos['valor_produto'];               ?></td>
       <td><?php echo $row_produtos['quantidade_produto'];           ?></td>
       <td><?php echo $row_produtos['data_registro']; ?></td>
-      <td class='acoes'><a href="/TesteCarletto/Views/detalhes.php?numproduto=<?php echo $row_produtos['id_produto'];?>"><button type='button'name="btnVizualizar" class='btn btn-primary'>Visualizar</button></a></td>
-      <td class='acoes'><a href='/TesteCarletto/Views/editar.php?numproduto=<?php echo $row_produtos['id_produto'];?>'><button type='button' class='btn btn-secondary'>Editar</button></a></td>
+      <td class='acoes'><a href="/crud/Views/detalhes.php?numproduto=<?php echo $row_produtos['id_produto'];?>"><button type='button'name="btnVizualizar" class='btn btn-primary'>Visualizar</button></a></td>
+      <td class='acoes'><a href='/crud/Views/editar.php?numproduto=<?php echo $row_produtos['id_produto'];?>'><button type='button' class='btn btn-secondary'>Editar</button></a></td>
   </tr> 
         
             

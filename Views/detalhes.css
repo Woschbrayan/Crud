@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  font-family: 'Poppins';         
+  margin: 0;           
+  padding: 0; 
+}
+
+.containerPrincipal{
+  position: relative;
+  left: 20%;
+  margin-top: 1%;
+  width: 50%;
+  height: 38%;
+  border-radius: 6px;
+  box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 30%);
+}
+
+.inContainer{
+  position: relative;
+  display: flex;
+  padding: 2%;
+}
+label{
+  color: #1572a1;
+  margin: 2%;
+}
+.cabecalhoDetalhes{
+  background-color: #1572a1;
+}
+button{
+  margin: 5%;
+}

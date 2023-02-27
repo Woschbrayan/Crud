@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  body{
+    font-family: 'Poppins';         
+    margin: 0;           
+    padding: 0; 
+  }
+
+  .containerPrincipal{
+    position: relative;
+    width: 60%;
+    height: 40%;
+    left: 20%;
+    border-radius: 6px;
+    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 30%);
+    color: #1572a1;
+    margin-top: 1%;
+  }
+  .cabecalhoEdit{
+    background-color: #1572a1;
+    text-align: center;
+
+  }
+  .EditarProduto{
+    padding: 2%;
+  }
+
+  .btn-primary{
+    position: relative;
+    margin: 5%;
+  }
+  a{
+    color: white;
+    font-style: none;
+  }
+  a:hover{
+    color: white;
+    font-style: none;
+  }
+    .btn-danger{
+    width: 20%;
+  }
+  .btns{
+    width: 50%;
+  }
+  .msgerro{
+    position: relative;
+    display: flex;
+    left: 20rem;
+    margin: 0;
+    padding: 0;
+  }

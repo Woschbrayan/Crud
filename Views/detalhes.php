@@ -19,43 +19,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./detalhes.css">
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <title>Detalhes</title>
-  <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-  body{
-    font-family: 'Poppins';         
-    margin: 0;           
-    padding: 0; 
-  }
-
-  .containerPrincipal{
-    position: relative;
-    left: 20%;
-    margin-top: 1%;
-    width: 50%;
-    height: 38%;
-    border-radius: 6px;
-    box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 30%);
-  }
-  
-  .inContainer{
-    position: relative;
-    display: flex;
-    padding: 2%;
-  }
-  label{
-    color: #1572a1;
-    margin: 2%;
-  }
-  .cabecalhoDetalhes{
-    background-color: #1572a1;
-  }
-  button{
-    margin: 5%;
-  }
-
-  </style>
 </head>
 <body>
   <div class="containerPrincipal">

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+font-family: 'Poppins';         
+margin: 0;           
+padding: 0; 
+}
+
+.col-12{
+  display: flex;
+  margin: 2%;
+}
+.col-12 input{
+  width:20%;
+}
+.form-control
+{
+  width: 70%;
+  margin-left: 2%;
+}
+
+.form-control{
+  margin: 2%;
+}
+.CadProduto{
+  position: relative;
+  width: 60%;
+  height: 40%;
+  margin-top: 1%;
+  left: 20%;
+  border-radius: 6px;
+  box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 30%);
+  color: #1572a1;
+  
+                
+}
+.cabecalhoCad{
+  background-color: #1572a1;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size:20px ;
+}
+.btn-primary{
+  margin: 5%;
+}
+#selectTipo{
+  width: 40%; 
+}
+.col-12{
+  display: flex;
+  column-gap:10% ;
+
+
+}
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+form{
+  padding: 2%;
+}
