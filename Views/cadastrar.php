@@ -43,7 +43,7 @@
 ?>
 <!--Formulario de Cadastro de Produtos-->
 <div class="CadProduto">
- <div class="cabecalhoCad"> <h1>Cadastrar Produtos</h1></div>    
+ <div class="cabecalhoCad"> <p>Cadastrar Produtos</p></div>    
  <?php
       if(!empty($msg)){
           echo $msg;
@@ -94,9 +94,10 @@
     </div>
 
 <!--Grupo de Botões-->
+<div class="grpBtn">
     <input type="submit" name="addProduto" value= "Cadastrar" class="btn btn-primary">
     <button type="" class="btn btn-primary"><a href="./home.php"> Voltar</button> </a>  
-    
+    </div>
 </form>
 </div>
 

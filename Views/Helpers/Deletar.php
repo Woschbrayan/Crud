@@ -21,19 +21,19 @@ class Deletar
         $resultquery = $conn->prepare($sql);
         $resultquery->execute();
     //Redireciona a pag para Home        
-        header('location: http://localhost/TesteCarletto/Views/home.php');
+        header('location: http://localhost/crud/Views/home.php');
 
     //Manten msg de sucesso
-        $_SESSION['msg'] = "<p style='color:green;position: relative; left: 40%;'>Deletado com sucesso!</p>";
+        $_SESSION['msg'] = "<p style='color:green;position: relative; left: 40%; margin: 0; width: 25%;'>Deletado com sucesso!</p>";
 
         }
     //se não conseguir executa
         catch(\Exception){
     //Redireciona a pag para Home   
-        header('location: http://localhost/TesteCarletto/Views/home.php');
+        header('location: http://localhost/crud/Views/home.php');
 
     //Manten msg de ERRO
-        $_SESSION['msg'] = "<p style='color:red;position: relative; left: 40%;'>Não foi possivel deletar o produto!</p>";
+        $_SESSION['msg'] = "<p style='color:red;position: relative; left: 40%; margin: 0; width: 25%;'>Não foi possivel deletar o produto!</p>";
 
         }
         

@@ -45,14 +45,15 @@
   <div class="menu">
     <div class="btn-group">
         <a href="./cadastrar.php">  <button type="button" class="btn btn-primary">Cadastrar Produto</button></a>
-        <?php
+        
+    </div> 
+
+  </div>
+  <?php
           if(!empty($msg)){
                  echo $msg;
           }
         ?>
-    </div> 
-  </div>
-
 
   <!--Tabela de produtos-->        
 <div class="container ">

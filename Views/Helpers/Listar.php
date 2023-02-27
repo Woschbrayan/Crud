@@ -15,7 +15,7 @@ class ListarProduto
     $conn = $conexao->conectar();
 
   //Executando SQL
-    $sql = "SELECT * FROM produto LIMIT {$this->inicio}, 10";
+    $sql = "  SELECT * FROM `produto` ORDER BY `produto`.`nome_produto` ASC LIMIT {$this->inicio}, 10  ";
     $resultquery = $conn->prepare($sql);
     $resultquery->execute();
 

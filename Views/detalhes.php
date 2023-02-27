@@ -26,7 +26,7 @@
 <body>
   <div class="containerPrincipal">
 
-    <div class="cabecalhoDetalhes"> <h1 style="text-align: center; color:white;">Detalhes</h1></div> 
+    <div class="cabecalhoDetalhes"> <p style="text-align: center; color:white; font-size:25px;">Detalhes</p></div> 
       <div class="inContainer">
 <!--Descrição do nome do produto-->
     <div class="col-md-6">
@@ -63,7 +63,7 @@
 
        
       </div>
-      <a href="./home.php"><button type="submit" class="btn btn-primary"> Voltar</button> </a> 
+      <a href="./home.php" style="width: 10%;"><button type="submit" class="btn btn-primary" style="margin:5%;"> Voltar</button> </a> 
       </div>
     
   </div>

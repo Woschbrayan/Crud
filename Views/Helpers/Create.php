@@ -19,17 +19,17 @@ class Create
         $resultquery->execute();
 
     //Redireciona a pag para Home  
-        header('location: http://localhost/TesteCarletto/Views/home.php');
+        header('location: http://localhost/crud/Views/home.php');
 
 
     //Passando msg de sessão
-        $_SESSION['msg'] =  "<p style='color:green;position: relative; left: 40%;'>Produto Cadastrado com sucesso!</p>";
+        $_SESSION['msg'] =  "<p style='color:green;position: relative; left: 40%; margin: 0; width: 25%;'>Produto Cadastrado com sucesso!</p>";
     }catch(Exception){
 
     //Redireciona a pag para Home  
-        header('location: http://localhost/TesteCarletto/Views/home.php');
+        header('location: http://localhost/crud/Views/home.php');
 
-        $_SESSION['msg'] =  "<p style='color:red;position: relative; left: 40%;'>Produto Não Cadastrado!</p>";
+        $_SESSION['msg'] =  "<p style='color:red;position: relative; left: 40%; margin: 0; width: 25%;'>Produto Não Cadastrado!</p>";
     }
 
     }

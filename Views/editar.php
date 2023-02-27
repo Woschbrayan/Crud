@@ -67,7 +67,7 @@ ob_start();
 <body>
   <div class="containerPrincipal">
     <div class="cabecalhoEdit">
-       <h1 style="color: white;">Editar Produto</h1>
+       <p style="color: white; font-size: 25px;">Editar Produto</p>
     </div> 
 
     <div class="EditarProduto">
